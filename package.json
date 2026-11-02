@@ -1,0 +1,30 @@
+{
+  "name": "veloce-video-animati",
+  "version": "1.0.0",
+  "description": "Short animati 3D di Veloce Digital (Remotion + three.js), pronti per essere migliorati con Blender",
+  "scripts": {
+    "studio": "remotion studio src/index.ts",
+    "audio": "scripts/audio.sh",
+    "render": "scripts/render.sh",
+    "stills": "scripts/stills.sh",
+    "typecheck": "tsc --noEmit -p ."
+  },
+  "author": "Veloce Digital",
+  "license": "UNLICENSED",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-three/fiber": "^9.8.2",
+    "@remotion/bundler": "^4.0.540",
+    "@remotion/cli": "^4.0.540",
+    "@remotion/renderer": "^4.0.540",
+    "@remotion/three": "^4.0.540",
+    "@types/react": "^19.3.0",
+    "@types/three": "^0.187.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "remotion": "^4.0.540",
+    "three": "^0.187.0",
+    "typescript": "^7.0.2"
+  },
+  "private": true
+}

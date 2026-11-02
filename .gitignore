@@ -1,0 +1,11 @@
+node_modules/
+bundle_tmp/
+stills/
+out/
+*.log
+.DS_Store
+# generated audio (rebuild with npm run audio)
+public/*.wav
+# font with unclear licence: add it locally, see docs/SETUP.md
+public/*.otf
+# Blender exports can be big: commit them only if under ~50 MB
